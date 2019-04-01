@@ -10,4 +10,7 @@ public class Luggage {
     public double getWeight(){
         return this.weight;
     }
+    public LuggageType getType(){
+        return this.type;
+    }
 }

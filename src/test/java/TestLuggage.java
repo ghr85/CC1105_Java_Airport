@@ -17,4 +17,7 @@ public class TestLuggage {
     }
 
     @Test
+    public void hasType(){
+        assertEquals(LuggageType.CARGO,luggage.getType());
+    }
 }
