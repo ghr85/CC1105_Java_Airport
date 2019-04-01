@@ -14,6 +14,10 @@ public class Passenger {
         return this.luggage.size();
     }
 
+    public void collectLuggage(Luggage luggageItem){
+        this.luggage.add(luggageItem);
+    }
+
     public String getName(){
         return this.name;
     }
