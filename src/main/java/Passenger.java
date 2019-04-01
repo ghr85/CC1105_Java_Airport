@@ -9,4 +9,12 @@ public class Passenger {
         this.name = name;
         this.luggage = new ArrayList<>();
     }
+
+    public int luggageCount(){
+        return this.luggage.size();
+    }
+
+    public String getName(){
+        return this.name;
+    }
 }

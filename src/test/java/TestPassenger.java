@@ -19,4 +19,8 @@ public class TestPassenger {
     public void startsWithNoLuggage(){
         assertEquals(0,passenger.luggageCount());
     }
+    @Test
+    public void hasName(){
+        assertEquals("Davey",passenger.getName());
+    }
 }
