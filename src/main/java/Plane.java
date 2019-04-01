@@ -5,5 +5,12 @@
 //        * a collection of passengers
 
 public class Plane {
+    private PlaneType type;
+    private Airline airline;
+
+    public Plane(PlaneType type, Airline airline){
+    this.type = type;
+    this.airline = airline;
+    }
 
 }
