@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Passenger {
     private String name;
     private ArrayList<Luggage> luggage;
+    private ArrayList<Luggage> baggageHandler;
 
     public Passenger(String name){
         this.name = name;
@@ -16,6 +17,12 @@ public class Passenger {
 
     public void collectLuggage(Luggage luggageItem){
         this.luggage.add(luggageItem);
+    }
+
+    public ArrayList dropLuggage(){
+        baggageHandler = this.luggage;
+         this.luggage.clear();
+         return baggageHandler;
     }
 
     public String getName(){

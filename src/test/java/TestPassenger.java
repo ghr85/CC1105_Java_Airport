@@ -25,7 +25,14 @@ public class TestPassenger {
         passenger.collectLuggage(luggage);
         assertEquals(1,passenger.luggageCount());
     }
-    
+
+    @Test
+    public void canDropOffLuggage(){
+        passenger.collectLuggage(luggage);
+        passenger.collectLuggage(luggage);
+        passenger.dropLuggage();
+        assertEquals(0,passenger.luggageCount());
+    }
     @Test
     public void hasName(){
         assertEquals("Davey",passenger.getName());
