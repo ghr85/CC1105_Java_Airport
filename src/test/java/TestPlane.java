@@ -21,5 +21,11 @@ public class TestPlane {
     public void hasAirline(){
         assertEquals(Airline.RYANAIR, plane.getAirline());
     }
+
+    @Test
+
+    public void startsWithEmptyPassengers(){
+        assertEquals(0,plane.countPassengers());
+    }
 }
 
