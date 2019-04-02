@@ -34,8 +34,19 @@ public class Airport {
        this.hangar.add(plane);
    }
 
+
+   public Plane assignPlane(Plane plane){
+         int index = this.hangar.indexOf(plane);
+         Plane flightPlane = this.hangar.get(index);
+         return flightPlane;
+   }
+
    public void removePlane(Plane plane){
        this.hangar.remove(plane);
+   }
+
+   public Flight createFlight(Plane plane,String flightNumber,AirportCode airportCode){
+   return new Flight(plane, flightNumber,airportCode);
    }
 
 

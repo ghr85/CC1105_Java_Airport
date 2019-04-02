@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertSame;
 
 public class TestAirport {
     private Airport airport;
@@ -45,4 +46,8 @@ public class TestAirport {
         assertEquals(1,airport.hangarCount());
     }
 
+    @Test
+    public void canCreateFlights(){
+    assertEquals("XZ123",airport.createFlight(plane,"XZ123",AirportCode.GLA).getFlightNumber());
+    }
 }
