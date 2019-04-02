@@ -8,12 +8,12 @@ public class TestPlane {
 
     @Before
     public void before(){
-        this.plane = new Plane(BOEING, RYANAIR);
+        this.plane = new Plane(PlaneType.BOEING747, Airline.RYANAIR);
     }
 
     @Test
 
     public void hasType(){
-        assertEquals("Boeing",plane.getType());
+        assertEquals(PlaneType.BOEING747,plane.getType());
     }
 }

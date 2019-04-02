@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31c507c-47bb-415a-9c18-68828dae3025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Airline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPlane.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,13 +30,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="32" />
           <entry key="Markdown" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2735" />
+          <entry key="JAVA" value="2836" />
           <entry key="Markdown" value="231" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
@@ -47,10 +48,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="293">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="e#0#211#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,14 +62,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="237">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -402,6 +401,7 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Passenger.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPassenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Airline.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPlane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plane.java" />
       </list>
@@ -465,7 +465,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554141963722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554182041731" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -657,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -702,26 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Luggage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LuggageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -772,6 +745,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LuggageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Luggage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PlaneType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -781,24 +779,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="237">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="293">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="e#0#211#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>

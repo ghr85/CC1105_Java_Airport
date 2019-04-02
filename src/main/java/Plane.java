@@ -13,4 +13,10 @@ public class Plane {
     this.airline = airline;
     }
 
+    public PlaneType getType(){
+        return this.type;
+    }
+
+    
+
 }
