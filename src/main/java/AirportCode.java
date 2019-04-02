@@ -9,7 +9,7 @@ public enum AirportCode {
      AirportCode(String prettyPrint){
         this.airportDestinationPretty = prettyPrint;
     }
-    public String getDestination(){
+    public String getFullName(){
          return this.airportDestinationPretty;
     }
 }

@@ -23,7 +23,7 @@ public class Flight {
     }
 
     public String getDestination() {
-        return destination.getDestination();
+        return destination.getFullName();
     }
 
 
