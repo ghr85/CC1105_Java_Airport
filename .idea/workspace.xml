@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31c507c-47bb-415a-9c18-68828dae3025" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Airline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPlane.java" afterDir="false" />
     </list>
@@ -36,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2836" />
+          <entry key="JAVA" value="2962" />
           <entry key="Markdown" value="231" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
@@ -45,27 +44,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#0#211#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="214">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -402,8 +405,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Passenger.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPassenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/Airline.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestPlane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plane.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPlane.java" />
       </list>
     </option>
   </component>
@@ -465,7 +468,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554182041731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554182811304" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -487,15 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPassenger.canDropOffLuggage">
-    <configuration name="TestLuggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="airport_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLuggage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestPlane">
     <configuration name="TestLuggage.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airport_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -534,20 +529,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="airport_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPlane" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestLuggage" />
       <item itemvalue="JUnit.TestLuggage.hasType" />
       <item itemvalue="JUnit.TestPassenger" />
       <item itemvalue="JUnit.TestPassenger.canCollectLuggage" />
       <item itemvalue="JUnit.TestPassenger.canDropOffLuggage" />
+      <item itemvalue="JUnit.TestPlane" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPlane" />
         <item itemvalue="JUnit.TestPassenger.canDropOffLuggage" />
         <item itemvalue="JUnit.TestPassenger.canCollectLuggage" />
         <item itemvalue="JUnit.TestPassenger" />
         <item itemvalue="JUnit.TestLuggage.hasType" />
-        <item itemvalue="JUnit.TestLuggage" />
       </list>
     </recent_temporary>
   </component>
@@ -777,24 +780,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#0#211#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
           </folding>
         </state>
       </provider>
