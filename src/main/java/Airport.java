@@ -36,7 +36,7 @@ public class Airport {
 
 
    public Plane assignPlane(Plane plane){
-         int index = this.hangar.indexOf(plane);
+       int index = this.hangar.indexOf(plane);
          Plane flightPlane = this.hangar.get(index);
          this.removePlane(flightPlane);
          return flightPlane;
@@ -53,6 +53,16 @@ public class Airport {
    public boolean containsPlane(Plane plane){
        return this.hangar.contains(plane);
    }
+
+//   public Ticket createTicket(Flight flight){
+//        Ticket ticket = new Ticket(flight);
+//        return ticket;
+//
+//   }
+//
+//   public sellTicket(Flight flight, Passenger passenger){
+//
+//   }
 
 
 

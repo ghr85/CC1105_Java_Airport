@@ -61,5 +61,17 @@ public class TestAirport {
         assertEquals(true, airport.containsPlane(planeAlt));
     }
 
+//    @Test
+//    public void canSellTicketForFlightPassengerPositive(){
+//        airport.parkPlane(plane);
+//        airport.parkPlane(planeAlt);
+//        airport.createTicket(flight);
+//        assertEquals(1,airport.hangarCount());
+//        assertEquals(1,airport.hangarCount());
+//        assertEquals(true, airport.containsPlane(planeAlt));
+//
+//
+//    }
+
 
 }
