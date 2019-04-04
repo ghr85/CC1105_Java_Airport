@@ -50,4 +50,16 @@ public class TestAirport {
     public void canCreateFlights(){
     assertEquals("XZ123",airport.createFlight(plane,"XZ123",AirportCode.GLA).getFlightNumber());
     }
+
+    @Test
+    public void canAssignPlaneToFlight(){
+        airport.parkPlane(plane);
+        airport.parkPlane(planeAlt);
+        Plane assignedPlane = airport.assignPlane(plane);
+        assertEquals("XZ123",airport.createFlight(assignedPlane,"XZ123",AirportCode.GLA).getFlightNumber());
+        assertEquals(1,airport.hangarCount());
+        assertEquals();
+    }
+
+
 }
