@@ -50,6 +50,10 @@ public class Airport {
    return new Flight(plane, flightNumber,airportCode);
    }
 
+   public boolean containsPlane(Plane plane){
+       return this.hangar.contains(plane);
+   }
+
 
 
 

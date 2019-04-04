@@ -58,7 +58,7 @@ public class TestAirport {
         Plane assignedPlane = airport.assignPlane(plane);
         assertEquals("XZ123",airport.createFlight(assignedPlane,"XZ123",AirportCode.GLA).getFlightNumber());
         assertEquals(1,airport.hangarCount());
-        assertEquals();
+        assertEquals(true, airport.containsPlane(planeAlt));
     }
 
 
