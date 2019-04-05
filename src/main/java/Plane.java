@@ -28,4 +28,12 @@ public class Plane {
     public int countPassengers() {
         return this.passengers.size();
     }
+
+    public int countCapacity(){
+        return this.type.getValue();
+    }
+
+    public void addPassenger(Passenger passenger) {
+        this.passengers.add(passenger);
+    }
 }

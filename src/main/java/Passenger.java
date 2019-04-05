@@ -5,6 +5,7 @@ public class Passenger {
     private String name;
     private ArrayList<Luggage> luggage;
     private ArrayList<Luggage> baggageHandler;
+    private Ticket ticket;
 
     public Passenger(String name){
         this.name = name;
@@ -28,4 +29,15 @@ public class Passenger {
     public String getName(){
         return this.name;
     }
+
+    public void collectTicket(Ticket ticket){
+        this.ticket = ticket;
+    }
+
+    public String showTicket(){
+        String combiTicket = this.ticket.getDestination() + " " + this.ticket.getTicketNumber();
+        this.ticket = null;
+        return combiTicket;
+    }
+
 }

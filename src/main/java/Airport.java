@@ -54,19 +54,30 @@ public class Airport {
        return this.hangar.contains(plane);
    }
 
-//   public Ticket createTicket(Flight flight){
-//        Ticket ticket = new Ticket(flight);
-//        return ticket;
+   public Ticket createTicket(Flight flight,Passenger passenger){
+        Ticket ticket = new Ticket(flight,passenger);
+        flight.getPlane();
+        return ticket;
+
+   }
 //
-//   }
+//   public void sellTicket(Flight flight, Passenger passenger){
+//    if(this.checkCapacity(flight) = true) {
+//        this.createTicket(flight,passenger);
+//    }
+//    }
 //
-//   public sellTicket(Flight flight, Passenger passenger){
-//
-//   }
+//    public boolean checkCapacity(Flight flight) {
+//        return flight.getPlane();
+//    }
+
+
+
+   }
 
 
 
 
 
 
-}
+
